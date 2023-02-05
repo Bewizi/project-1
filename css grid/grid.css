@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    height: 700px;
+    margin: 3rem auto;
+    border: 7px solid black;
+    background-image: url(image/background.jpg);
+    background-size: contain;
+}
+
+.item{
+    width: 150px;
+    /* height: 50vh; */
+    height: 150px;
+    background-color: #fb7185;
+    padding: 1rem;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-1{
+    /* margin-top: 2rem; */
+    /* margin-left: 1.5rem; */
+    background-image: url(image/coffee-1.jpg);
+    background-size: cover;
+}
+
+.item-2{
+    background-image: url(image/coffee-2.jpg);
+    background-size: cover;
+}
+.item-3{
+    background-image: url(image/coffee-3.jpg);
+    background-size: cover;
+}
+.item-4{
+    background-image: url(image/coffee-4.jpg);
+    background-size: cover;
+}
+.item-5{
+    background-image: url(image/coffee-5.jpg);
+    background-size: cover;
+}
+.item-6{
+    background-image: url(image/coffee-6.jpg);
+    background-size: cover;
+}
+.item-7{
+    background-image: url(image/coffee-7.jpg);
+    background-size: cover;
+}
+.item-8{
+    background-image: url(image/coffee-8.jpg);
+    background-size: cover;
+}
+.item-9{
+    background-image: url(image/coffee-9.jpg);
+    background-size: cover;
+}
+.item-10{
+    background-image: url(image/coffee-10.jpg);
+    background-size: cover;
+}
+.item-11{
+    background-image: url(image/coffee-11.jpg);
+    background-size: cover;
+}
+.item-12{
+    background-image: url(image/coffee-12.jpg);
+    background-size: cover;
+}
