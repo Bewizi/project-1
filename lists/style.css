@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 4rem;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    align-content: center;
+    
+}
+
+nav li{
+    list-style-type: none;
+    padding: 1rem;
+    float: left;
+    /* line-height: 4rem; */
+    justify-content: space-between;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+
+
