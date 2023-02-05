@@ -23,7 +23,6 @@ body{
 
 .item{
     width: 150px;
-    /* height: 50vh; */
     height: 150px;
     background-color: #fb7185;
     padding: 1rem;
@@ -38,8 +37,6 @@ body{
     flex-wrap: wrap;
 }
 .item-1{
-    /* margin-top: 2rem; */
-    /* margin-left: 1.5rem; */
     background-image: url(image/coffee-1.jpg);
     background-size: cover;
 }
