@@ -24,7 +24,6 @@ body{
 .item{
     width: 150px;
     height: 150px;
-    background-color: #fb7185;
     padding: 1rem;
     font-weight: 700;
     color: var(--clr-light);
