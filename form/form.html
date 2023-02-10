@@ -14,16 +14,16 @@
                 <legend>Account Informaton</legend>
                 <table>
                     <tr>
-                        <td>Username:</td>
-                        <td><input type="text" name="text" placeholder="John_pet"></td>
+                        <td width="200">Username:</td>
+                        <td><input type="text" name="text" placeholder="John_pet" size="30"></td>
                     </tr>
                     <tr>
-                        <td>Password:</td>
+                        <td>Password:</td> 
                         <td><input type="password" name="password" placeholder="password"></td>
                     </tr>
                     <tr>
                         <td>Email:</td>
-                        <td><input type="email" name="email" ></td>
+                        <td><input type="email" name="email" placeholder="info@yahoo.com"></td>
                     </tr>
                     <tr>
                         <td>Confirm Password:</td>
@@ -40,16 +40,73 @@
                 <legend>Personal Informaton:</legend>
                 <table>
                     <tr>
-                        <td>First Name:</td>
-                        <td><input type="text" name="text" placeholder="First Name"></td>
+                        <td width="200">First Name:</td>
+                        <td><input type="text" name="text" placeholder="First Name" size="30"></td>
                     </tr>
                     <tr>
                         <td>Middle Name:</td>
-                        <td><input type="text" name="text" placeholder="Middle Name"></td>
+                        <td><input type="text" name="text" placeholder="Middle Name" size="30"></td>
                     </tr>
                     <tr>
                         <td>Last Name:</td>
-                        <td><input type="text" name="text" placeholder="Last Name"></td>
+                        <td><input type="text" name="text" placeholder="Last Name" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Marital Status:</td>
+                        <td>
+                            <input type="radio" name="marital">Single
+                            <input type="radio" name="marital">Married
+                            <input type="radio" name="marital">Divorced
+                            <input type="radio" name="marital">Seperated
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Social Media:</td>
+                        <td>
+                            <input type="checkbox">Facebook
+                            <input type="checkbox">Twitter
+                            <input type="checkbox">Instagram
+                            <input type="checkbox">Youtube
+                            <input type="checkbox">Linkeldn
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>State of Origin:</td>
+                        <td>
+                            <select>
+                                <option value="">Abia</option>
+                                <option value="">Osun</option>
+                                <option value="">Lagos</option>
+                                <option value="">Benue</option>
+                                <option value="">Borno</option>
+                                <option value="">Rivers</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                     <td>Upload File:</td>
+                     <td>
+                        <input type="file" name="file">
+                     </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Comments:</td>
+                        <td><textarea name="message" id="message" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Sign up">
+                            <input type="reset">
+                        </td>
                     </tr>
                 </table>
             </fieldset>
