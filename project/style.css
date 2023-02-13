@@ -113,5 +113,21 @@ h2{
     display: flex;
     line-height: 6rem;
     letter-spacing: 0.5rem;
-    margin: 0 2rem;
+    margin: 0 3rem;
+    display: list-item;
+}
+
+h1{
+    color: #EDEDE9;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.about p{
+    direction: rtl;
+    color: #EDEDE9;
+    margin: 3rem 3rem;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
 }
