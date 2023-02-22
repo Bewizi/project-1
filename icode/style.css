@@ -5,70 +5,208 @@
 }
 
 body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: white; */
+    min-height: 200%;
 }
-.conatiner{
-    width: 800px;
-    height: 700px;
-    margin: 3rem auto;
-    border: 7px solid black;
+/* header */
+.main-header{
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+#header-logo{
+    margin: 1rem 0;
+}
+/* end of header */
+
+/* link */
+.main-header nav{
+    display: flex;
+    margin: 1rem 0;
+}
+.main-header nav ul{
+    display: flex;
+    gap: 3rem;
+}
+.main-header li{
+    list-style: none;
 }
 
-.item{
-    width: 150px;
-    height: 150px;
-    padding: 1rem;
-    font-weight: 700;
-    color: var(--clr-light);
-    text-align: center;
-    border-radius: 10px;
+.main-header a{
+    text-decoration: none;
+    color: #f9faf8;
 }
+/* end of link */
 
-.conatiner{
+/* main */
+#content{
+    width: 500%;
+    background-color: #1f2937;
     display: flex;
+    color: #f9faf8;
+    padding: 6rem 6rem;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    padding-left: 250px;
+}
+#container{
+    width: 500px;
+}
+#container h1{
+    font-size: 45px;
+}
+#container p{
+    margin-top: 0.5rem;
+    
+}
+#button button{
+    width: 5rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+#box{
+    width: 400px;
+    height: 300px;
+    margin-left: 2rem;
+    color: #f9faf8;
+    display: flex;
+}
+#box img{
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* end of main */
+
+/* middle */
+.span h1{
+    justify-content: center;
+    display: flex;
+    margin: 3rem 0;
 }
 
-.item{
-    width: 150px;
-    height: 150px;
-    padding: 1rem;
-    font-weight: 700;
-    margin: 1rem 3rem;
+
+#middle{
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    padding-left: 6rem;
+    gap: 10rem;
+    
+}
+.box-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px
+}
+#text-1{
+    width: 200px;
+    height: auto;
+}
+/* end of middle */
+
+/* quote */
+.quote{
+    margin-top: 6rem;
+    background-color: #e5e7eb;
+    min-height: 300px;
+    font-size: 36px;
+    padding: 6rem 10rem;
+}
+.sample-quote p{
+    color: #1f2937;
+    font-style: italic;
+    line-height: 1;
+}
+.sample-quote cite{
+    margin-top: 10rem;
+    margin-left: 50rem;
 
 }
+/* end of quote */
 
-.item-1{
-    height: 200px;
-    background-color: blue;  
+
+/* third */
+#third{
+    width: 900px;
+    margin: 5rem 0;
+    margin-inline: auto;
+    height: 100px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    padding-top: 1rem;
 }
 
-.item-2{
-    width: 150px;
-    height: 200px;
-    background-color: blue;
+#third-box button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
 }
-.item-3{
-    width: 150px;
-    height: 200px;
-    background-color: blue;
+
+/* end of third */
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 5rem;
+    margin-top: 4rem;
+    text-align: center;
+    line-height: 5rem;
+    background-color: #1f2937;
+    color: white;
 }
-.item-4{
-    width: 150px;
-    height: 200px;
-    background-color: blue;
+
+/* end of footer */
+
+/* about */
+
+.about{
+    width: 600px;
+    min-height: 200px;
+    /* border: 3px solid green; */
+    margin-inline: auto;
+    margin-top: 5rem;
 }
-.item-5{
-    width: 150px;
+
+.about-1{
+    width: 300px;
     height: 200px;
-    background-color: blue;
+    border-radius: 5px;
+    /* border: 1px solid black; */
 }
-.item-6{
-    width: 150px;
+
+.about-1 img{
+    width: 300px;
     height: 200px;
-    background-color: blue;
+    border-radius: 5px;
 }
+.right{
+    float: left;
+    clear: both;
+}
+
+.about summary{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.about p{
+    word-spacing: 0.5rem;
+    padding: 0 2rem;
+    font-size: 20px;
+}
+/* end of about */
+
+/* contact us */
