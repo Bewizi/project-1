@@ -19,6 +19,9 @@ body{
 #header-logo{
     margin: 1rem 0;
 }
+#header-logo img{
+    background-color: #fff;
+}
 /* end of header */
 
 /* link */
@@ -133,7 +136,7 @@ body{
 /* third */
 #third{
     width: 900px;
-    margin: rem 0;
+    margin: 4rem 0;
     margin-inline: auto;
     height: 100px;
     background-color: #3882f6;
