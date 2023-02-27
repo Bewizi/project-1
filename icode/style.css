@@ -109,6 +109,8 @@ body{
 #text-1{
     width: 200px;
     height: auto;
+    text-indent: 1rem;
+    line-height: 1.2rem;
 }
 /* end of middle */
 
@@ -219,3 +221,4 @@ body{
     height: 200px;
     border: 1px solid red;
 }
+ 
