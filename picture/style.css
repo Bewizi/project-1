@@ -1,77 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    box-sizing: border-box;
     background-color: #293241;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: linear-gradient(#B388EB, #f8f9fa);
 }
 
-/* .items1{
-    color: blue;
-    width: 100px;
-    padding: 20px 10px;
-    margin: 10em;
-    padding-inline: 10px;
-    padding-block: 20px;
-    border: 10px solid red;
-    margin: 20px 10px;
-    margin-inline: 20px;
-    margin-block: 10px;
+#continer{
+   max-width: 800px;
+   min-height: 600px;
+   margin-inline: auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 1rem;
+   align-content: space-evenly;
 }
 
-.items2{
-    padding-inline: 10px;
-
-} */
-/* 
-.items3{
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-
-} */
-#container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.items1{
-    /* border: 100px red solid; */
-    border-radius: 60px;
-    /* float: left; */
-}
-.items1 img{
-    width: 30em;
-    border-radius: 15px;
-}
-.items2{
-    /* border: 100px green solid; */
-    border-radius: 55px;
-}
-.items2 img{
-    width: 20em;
-    border-radius: 65px;
-}
-
-.items3{
-    /* border: 120px yellowgreen solid; */
-    border-radius: 50px;
-}
-
-.items3 img{
-    width: 30em;
-    border-radius: 20px;
-}
-
-h1{
-    text-align: center;
+.box{
+    min-width: 220px;
+    min-height: 250px;
+    background-color: #F8F9FA;
     color: white;
-    font-size: 4rem
+    /* padding: 0.5rem; */
+}
+ 
+.box img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    box-shadow: 2px 2px 3px silver;
+}
+
+.box figcaption{
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    color: #293241;
+    font-weight: bolder;
+}
+.box footer{
+    width: 220px;
+    min-height: 80px;
+    margin-top: 2.5em;
+    /* display: flex; */
+    background-color: hsla(0, 0%, 83%, 0.545);
+    color: #293241;
+}
+
+footer{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+h4{
+    text-indent: 1rem;
+}
+footer div{
+    margin-top: 0.5rem;
 }
