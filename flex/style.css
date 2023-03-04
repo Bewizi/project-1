@@ -108,3 +108,63 @@ body{
 }
 
 /* end of box2 */
+
+
+/* media queries */
+@media screen and (min-width: 465px) {
+    #container{
+        display: grid;
+        border-radius: none;
+    }
+    .box{
+        border-radius: none;
+    }
+    figcaption{
+        line-break: 1px;
+        margin-top: 10px;
+    }
+    input{
+        width: 600px;
+    }
+    .box-2{
+        min-height: 900px;
+    }
+    textarea{
+        width: 500px;
+        min-height: 400px;
+    }
+    p{
+        padding-top: normal;
+    }
+}
+@media screen and (min-width: 990px) {
+    #container{
+        display: flex;
+    }
+    figcaption{
+        letter-spacing: 5px;
+    }
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+        height: 50px;
+    }
+    .box-2{
+        min-width: 500px;
+    }
+    .box-1{
+        min-width: 700px;
+    }
+
+    .number p{
+        line-height: 100px;
+        font-size: 70px;
+    }
+    .text p, address{
+        font-size: 2em;
+        line-height: 1em;
+    }
+}
+
