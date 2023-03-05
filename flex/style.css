@@ -111,12 +111,12 @@ body{
 
 
 /* media queries */
-@media screen and (min-width: 465px) {
+@media screen and (min-width: 320px) {
     #container{
         display: grid;
         border-radius: none;
     }
-    .box{
+    .box-1{
         border-radius: none;
     }
     figcaption{
@@ -124,14 +124,14 @@ body{
         margin-top: 10px;
     }
     input{
-        width: 600px;
+        width: 300px;
     }
     .box-2{
-        min-height: 900px;
+        min-height: 680px;
     }
     textarea{
-        width: 500px;
-        min-height: 400px;
+        width: 300px;
+        min-height: 200px;
     }
     p{
         padding-top: normal;
